@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-03-05 11:26:24.510808",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sidebar_tab",
+  "settings_section",
+  "autoclose_sidebar_workspaces",
+  "autoclose_sidebar_list",
+  "attach_file_tab",
+  "settings_attach_file_section",
+  "auto_uncheck_private_upload",
+  "responsive_tab",
+  "responsive_setting_section",
+  "fluid_layout"
+ ],
+ "fields": [
+  {
+   "fieldname": "settings_section",
+   "fieldtype": "Section Break",
+   "label": "Sidebar Settings"
+  },
+  {
+   "default": "0",
+   "description": "(Check for Autoclose Sidebar Workspaces)",
+   "fieldname": "autoclose_sidebar_workspaces",
+   "fieldtype": "Check",
+   "label": "Autoclose Sidebar Workspaces"
+  },
+  {
+   "default": "0",
+   "description": "(Check for Autoclose Sidebar List)",
+   "fieldname": "autoclose_sidebar_list",
+   "fieldtype": "Check",
+   "label": "Autoclose Sidebar List"
+  },
+  {
+   "fieldname": "sidebar_tab",
+   "fieldtype": "Tab Break",
+   "label": "Sidebar"
+  },
+  {
+   "fieldname": "attach_file_tab",
+   "fieldtype": "Tab Break",
+   "label": "Attach File"
+  },
+  {
+   "fieldname": "responsive_tab",
+   "fieldtype": "Tab Break",
+   "label": "Responsive"
+  },
+  {
+   "fieldname": "settings_attach_file_section",
+   "fieldtype": "Section Break",
+   "label": "Attach File Setting "
+  },
+  {
+   "default": "0",
+   "description": "(Auto Uncheck Private Upload)",
+   "fieldname": "auto_uncheck_private_upload",
+   "fieldtype": "Check",
+   "label": "Auto Uncheck Private Upload"
+  },
+  {
+   "fieldname": "responsive_setting_section",
+   "fieldtype": "Section Break",
+   "label": "Responsive Setting"
+  },
+  {
+   "default": "0",
+   "description": "(Check for Width Custom Layout)",
+   "fieldname": "fluid_layout",
+   "fieldtype": "Check",
+   "label": "Width Custom Layout"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-03-17 11:17:04.084683",
+ "modified_by": "Administrator",
+ "module": "Frappe QOL",
+ "name": "QOL Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
