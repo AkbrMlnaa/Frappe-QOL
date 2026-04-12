@@ -29,7 +29,7 @@ Tidak perlu bongkar-bongkar kode (*hardcoding*)! Anda memiliki kendali penuh ata
 ## 🛠️ Cara Install
 Buka terminal di server Anda dan jalankan perintah *bench* berikut:
 ```bash
-bench get-app https://github.com/AkbrMlnaa/Frappe-QOL
+bench get-app https://github.com/AkbrMlnaa/Frappe-QOL.git
 bench --site nama_site_anda install-app nama_app_anda
 bench build --app nama_app_anda
 bench restart
