@@ -4,7 +4,7 @@ Custom App Frappe yang dirancang khusus untuk meningkatkan pengalaman pengguna (
 
 Semua fitur bersifat modular dan dapat diaktifkan atau dimatikan secara instan melalui menu *Single DocType* khusus.
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 ### 1. Custom Width (Fluid) Layout
 Bosan dengan lebar kontainer bawaan yang sempit saat dibuka di monitor besar? Fitur ini menimpa *layout* bawaan Frappe dan memaksa tampilan melebar 100% (*fluid width*). 
@@ -19,17 +19,17 @@ Buat layar Anda tetap bersih dan fokus pada data. Fitur ini secara otomatis meli
 * **Workspaces**
 * **List Views**
 
-## ⚙️ Cara Penggunaan & Konfigurasi
+## Cara Penggunaan & Konfigurasi
 Tidak perlu bongkar-bongkar kode (*hardcoding*)! Anda memiliki kendali penuh atas fitur mana saja yang aktif langsung dari antarmuka ERPNext.
 1. Buka *Awesome Bar* (Ctrl + G) dan cari **QOL Settings**.
 2. Navigasi melalui tab yang tersedia (Sidebar, Attach File, Responsive).
 3. Centang atau hilangkan centang pada fitur yang ingin Anda atur.
 4. Klik **Save** (Perubahan akan langsung diterapkan pada saat halaman dimuat ulang / *reload*).
 
-## 🛠️ Cara Install
+## Cara Install
 Buka terminal di server Anda dan jalankan perintah *bench* berikut:
 ```bash
-bench get-app https://github.com/AkbrMlnaa/Frappe-QOL.git
+bench get-app https://github.com/AkbrMlnaa/Frappe-Quality-of-Life.git
 bench --site nama_site_anda install-app nama_app_anda
 bench build --app nama_app_anda
 bench restart
